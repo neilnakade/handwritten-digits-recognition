@@ -1,34 +1,60 @@
-# Handwritten Digits Recognition
+# 🧠 Handwritten Digit Classification (MNIST)
 
-This project focuses on classifying handwritten digits (0–9) using the MNIST dataset.
+This project focuses on classifying handwritten digits (0–9) using Machine Learning and Deep Learning models.
 
-## Project Overview
-- Performed Exploratory Data Analysis (EDA)
-- Applied preprocessing techniques like normalization and flattening
-- Implemented multiple models:
-  - Logistic Regression
-  - Support Vector Machine (SVM)
-  - Artificial Neural Network (ANN)
-- Evaluated models using accuracy, confusion matrix, and classification report
-- Performed cross-validation for model validation
-- Analyzed misclassified images for error understanding
+---
 
-## Results
-- SVM achieved strong performance with high accuracy
-- ANN also performed well by capturing non-linear patterns
+## 📊 Dataset
+- MNIST dataset (28x28 grayscale images)
+- 60,000 training + 10,000 testing samples
 
-## Key Learnings
-- Importance of proper evaluation metrics
-- Understanding model errors through visualization
-- Comparing ML and Deep Learning approaches
+---
 
-## Future Improvements
-- Implement Convolutional Neural Networks (CNN)
-- Perform hyperparameter tuning
-- Use larger datasets for better generalization
+## ⚙️ Models Implemented
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- Artificial Neural Network (ANN)  
 
-## Tech Stack
-- Python
-- Scikit-learn
-- TensorFlow / Keras
-- Matplotlib / Seaborn
+---
+
+## 📈 Results
+
+| Model | Accuracy |
+|------|--------|
+| Logistic Regression | 0.9259 |
+| SVM | 0.9792|
+| ANN | 0.9736|
+
+👉 **Best Model: SVM**
+
+---
+
+## 🔍 Evaluation
+
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+### Misclassified Samples
+![Errors](misclassified.png)
+
+---
+
+## 🧠 Key Learnings
+- Importance of proper evaluation beyond accuracy  
+- Handling high-dimensional image data  
+- Comparing ML vs Deep Learning models  
+
+---
+
+## 🚀 Future Improvements
+- Implement CNN for better performance  
+- Hyperparameter tuning  
+- Real-time digit recognition app  
+
+---
+
+## 🛠️ Tech Stack
+- Python  
+- Scikit-learn  
+- TensorFlow / Keras  
+- Matplotlib / Seaborn  
