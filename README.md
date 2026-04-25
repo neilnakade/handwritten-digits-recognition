@@ -28,7 +28,7 @@ This project focuses on classifying handwritten digits (0–9) using the MNIST d
 - Use larger datasets for better generalization
 
 ## Tech Stack
-- Python
-- Scikit-learn
-- TensorFlow / Keras
-- Matplotlib / Seaborn
+ Python
+ Scikit-learn
+ TensorFlow / Keras
+ Matplotlib / Seaborn
